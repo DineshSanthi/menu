@@ -1,0 +1,26 @@
+.cat-title {
+    color: #fd590d;
+    font-size: 40px !important;
+}
+
+.sold-out-menu-item-name {
+    font-family: "Rockwell";
+    opacity: 0.6;
+}
+
+.sold-out-menu-item-price-txt {
+    color: #fd590d !important;
+    font-family: "Rockwell";
+}
+
+.col-1 h4 {
+    font-size: 38px !important;
+}
+
+.col-2 h4 {
+    font-size: 38px !important;
+}
+
+.col-3 h4 {
+    font-size: 38px !important;
+}
