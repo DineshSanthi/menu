@@ -1,0 +1,23 @@
+.home {
+    margin: 16px;
+}
+
+.nav-logo {
+    margin: 6px;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .nav-logo {
+        width: 50%;
+    }
+
+    .order-now-btn {
+        margin-top: 10px;
+    }
+}
+
+.sbui-btn-primary {
+    background-color: #018900 !important;
+    color: #EBEBEB !important;
+}
