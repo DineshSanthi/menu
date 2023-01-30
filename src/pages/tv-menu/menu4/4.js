@@ -24,7 +24,7 @@ const Page4 = () => {
 	const [menu, setMenu] = useState([]);
 	useEffect(() => {
 		const fetchMenu = async () => {
-			await fetch("https://plain-elk-moccasins.cyclic.app/menu-items")
+			await fetch("https://desichowrastha-api.onrender.com/menu-items")
 				.then((response) => response.json())
 				.then((data) => {
 					console.log(data);
