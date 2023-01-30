@@ -48,15 +48,11 @@ const ChaatSection = () => {
 
 		fetchMenu();
 
-		// const timer = setInterval(
-		// 	() => {
-		// 		fetchMenu();
-		// 	},
+		const timer = setInterval(() => {
+            fetchMenu();
+        }, 60000);
 
-		// 	1000
-		// );
-
-		// return () => clearTimeout(timer);
+        return () => clearTimeout(timer);
 	}, []);
 
 	return (
