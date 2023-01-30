@@ -46,7 +46,7 @@ const Menu = () => {
 
         const timer = setInterval(() => {
             fetchMenu();
-        }, 1000);
+        }, 60000);
 
         return () => clearTimeout(timer);
     }, []);
